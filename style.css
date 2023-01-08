@@ -1,0 +1,110 @@
+body {
+    background: greenyellow;
+
+}
+
+.container {
+    width: 1000px;
+    background: beige;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    background: rgb(194, 194, 190);
+   
+}
+
+
+
+.header img{
+    padding: 15px;
+    width: 240px;
+}
+text-xobbi-bg {   
+    background: aqua;
+    padding: 15px;   
+    margin: auto;
+     
+}
+.text-xobbi {   
+   
+    padding: 15px;   
+    margin: auto;
+    width: 30%;       
+}
+
+.text-rabota {
+    background: #bdbdca;
+    padding: 15px;
+}
+table {
+    width: 70%;
+    
+    margin: auto;
+}
+.text-rabota h2 {
+    text-align: center;
+}
+.forma-bg {
+    background: #eee;   
+}
+.forma {
+    background: #eee;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+}
+.forma form {
+    display: flex;
+    flex-direction: column;
+}
+.form-lab {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.knopka {
+    background: green;
+    color: #fff;
+    height: 30px;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+label {
+    width: 30%;
+    padding-right: 15px;
+    text-align: left;
+}
+.forma h2 {
+    text-align: center;
+}
+
+@media  (max-width: 500px) {
+    .header {
+        display: block;  
+        padding: 30px;    
+    }
+
+    .container {       
+        width: 100%;
+    }
+    .header img {     
+        display: block;
+        margin: auto;
+    }
+    element.style {
+        padding: 30px;
+        text-align: justify;
+    }
+    table {
+        width: 95%;       
+    }
+    .text-xobbi {
+        width: auto;
+    }
+    .knopka {      
+        width: 80%;      
+    }
+}
